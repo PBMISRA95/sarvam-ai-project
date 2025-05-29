@@ -1,0 +1,33 @@
+#All settings for pylint
+
+#Settings for core lint behaviour
+[MASTER]
+fail_under =7.0
+
+#Settings for what warnings/errors to be shown
+[MESSAGES CONTROL]
+diable=missing-docstring,
+        too-few-public-methods,
+        duplicate-code
+
+#Settings for CODE appearance and style
+[FORMAT]
+max-line-length=100
+indent-string="    "
+
+#Settings for function and class design
+[DESIGN]
+max-args=6
+max-attributes=8
+max-locals=15
+max-statements=50
+max-branches=12
+
+#Settings fornaming conventions
+[BASIC]
+good-names=i,j,k,ex,df,X,y,lr,cv
+bad-names=foo,bar,baz,data,temp
+
+#Seetings for type checking
+[TYPECHECK]
+ignored-modules=cv2,sklearn,numpy,pandas,torch,tensorflow
