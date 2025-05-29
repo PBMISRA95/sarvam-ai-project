@@ -57,13 +57,13 @@ This repository serves as a learning and experimentation environment for:
    ```
 
 ## 📁 Project Structure
-
+```markdown
 sarvam-ai-project/
 ├── .pre-commit-config.yaml         # Code quality automation
 ├── .pylintrc                       # Python linting configuration
 ├── .gitignore                      # Patterns for git to ignore
 └── README.md                       # Repo Documentation
-
+```
 
 
 ### Development Workflow
